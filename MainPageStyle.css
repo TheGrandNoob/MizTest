@@ -1,0 +1,190 @@
+body    
+{
+     margin: 0px;
+     background-color: yellow;
+}
+        .map
+        {
+            margin-left: 30vh;
+            margin-top: 10vh;
+            position:absolute;
+        }
+        .TextA
+        {
+            fill:white;
+            z-index: 11;
+        }
+        .tiles:hover
+        {
+            z-index: 10000;
+            fill: #4169E1;
+        }
+        .tiles
+        {
+            z-index: 1000;
+            fill: #05316D;
+        }
+        .image 
+        {
+            z-index: 4;
+            width: 20vh;
+            height: 20vh;
+            position: relative;
+            background-image: url(Gerb.png);
+            background-size: contain;
+            background-color: #009900;
+            background-position: center;
+            margin-right: 0px;
+            background-repeat: no-repeat;
+        }
+        .MainText
+        {
+            width: 100vh;
+            height: 10vh;
+            text-align: center;
+            position:absolute;
+            margin-left: 20vh;
+            color: red;
+            font-size: 5vh;
+        }
+        .Panel
+        {
+            width: 20vh;
+            height: 80vh;
+            margin-top: 0px;
+            background-color: #009900;
+        }
+        
+        .popUpMenuG
+        {
+            content: '';
+            width: 20vh;
+            height: 40vh;
+            background-color: #009900;
+            position: fixed;
+            border: 1px solid #009933;
+            float: left;
+            overflow: auto; 
+            margin-left: 20vh;
+            opacity: 1;
+        }
+        p1
+        {
+            font-size:7vh;
+        }
+        p2
+        {
+            font-size: 4vh;
+        }
+        p3
+        {
+            font-size: 3vh;
+        }
+        .ZamSearch
+        {
+            width: 30vh;
+            height: 15vh;
+        }
+        #SearcPO:hover
+        {
+            background-color: #00ff33;  
+        }
+        .searchElem
+        {
+            font-size: 3vh;
+        }
+        .searchElem:hover
+        {
+            background-color: #00ff33;
+        }
+        .searchElemM
+        {
+            font-size: 3vh;
+        }
+        .searchElemM:hover
+        {
+            background-color: #00ff33;
+        }
+        #Hint
+        {
+            display:none;
+            position:absolute;
+            border:1px solid #ccc;
+            padding:0.5vh;
+            background:#bbbbbb;
+            border-radius:5px;
+        }
+        .popup-fade {
+	display: none;
+}
+.popup-fade:before {
+	content: '';
+	background: #000;
+	position: fixed; 
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%;
+	opacity: 0.7;
+	z-index: 9999;
+}
+#ModalWindow
+{
+    display:none;
+}
+#ModalWindow
+{
+    
+    border:2px;
+    position: absolute;
+    top:25%;
+    left:30%;
+
+    width: 40%;
+    height: 50%;
+    background-color:white;
+    z-index: 99999;
+    border-radius: 1vh;
+    opacity: 1;
+	position: fixed;
+    padding:1.5vh;
+	box-shadow: 0px 0px 130px -5px rgba(181,181,181,1);
+
+}
+.modalMeader
+{
+    border:1px solid;
+    margin-top:6%;
+    border-color: grey;
+    width: 100% ;
+    height: 87%;
+}
+.popUpMenuM
+{
+    font-size: 3vh;
+    content: '';
+    width: 20vh;
+    height: 40vh;
+    background-color: #009900;
+    position: fixed;
+    border: 1px solid #009933;
+    float: left;
+    overflow: scroll; 
+    margin-left: 20vh;
+    opacity: 1;
+}
+#ModalHeader
+{
+    top:0%;
+    text-align: center;
+    margin-top:0vh;
+}
+#ExitBtn
+{
+    position: absolute;
+}
+#ExitBtn:hover
+{
+    position: absolute;
+    color:red;
+}
